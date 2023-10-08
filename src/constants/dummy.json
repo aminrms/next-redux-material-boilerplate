@@ -1,0 +1,72 @@
+{
+  "sidebar": [
+    {
+      "name": "منو",
+      "menu": [
+        {
+          "name": "صفحه ی اصلی",
+          "path": "/"
+        },
+        {
+          "name": "داشبورد",
+          "path": "/dashboard",
+          "sub_menu": [
+            {
+              "name": "نگاه کلی",
+              "path": "/dashboard/overview"
+            },
+            {
+              "name": "معاملات",
+              "path": "/dashboard/transaction"
+            },
+            {
+              "name": "ذخیره ها",
+              "path": "/dashboard/saving"
+            },
+            {
+              "name": "صورتحساب ها",
+              "path": "/dashboard/invoice"
+            }
+          ]
+        },
+        {
+          "name": "آنالیزات",
+          "path": "/analytics",
+          "sub_menu": [
+            {
+              "name": "کارمندان",
+              "path": "/analytics/employees"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "اکانت",
+      "menu": [
+        {
+          "name": "پروفایل",
+          "path": "/myAccount/profile"
+        },
+        {
+          "name": "تاریخچه",
+          "path": "/myAccount/history"
+        },
+        {
+          "name": "تنظیمات",
+          "path": "/myAccount/setting",
+          "sub_menu": [
+            {
+              "name": "شخصی سازی",
+              "path": "/myAccount/customization"
+            }
+          ]
+        },
+        {
+          "name": "خروج",
+          "path": "/registration?mode=login"
+        }
+      ]
+    }
+  ]
+}

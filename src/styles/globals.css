@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Vazir" !important;
+  direction: rtl !important;
+  transition: background .5s;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("../../public/assets/font/Vazir-Regular-FD.eot");
+  src: url("../../public/assets/font/Vazir-Regular-FD.eot")
+      format("embedded-opentype"),
+    url("../../public/assets/font/Vazir-Regular-FD.woff2") format("woff2"),
+    url("../../public/assets/font/Vazir-Regular-FD.woff") format("woff"),
+    url("../../public/assets/font/Vazir-Regular-FD.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("../../public/assets/font/Vazir-Bold-FD.eot");
+  src: url("../../public/assets/font/Vazir-Bold-FD.eot")
+      format("embedded-opentype"),
+    url("../../public/assets/font/Vazir-Bold-FD.woff2") format("woff2"),
+    url("../../public/assets/font/Vazir-Bold-FD.woff") format("woff"),
+    url("../../public/assets/font/Vazir-Bold-FD.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("../../public/assets/font/Vazir-Black-FD.eot");
+  src: url("../../public/assets/font/Vazir-Black-FD.eot")
+      format("embedded-opentype"),
+    url("../../public/assets/font/Vazir-Black-FD.woff2") format("woff2"),
+    url("../../public/assets/font/Vazir-Black-FD.woff") format("woff"),
+    url("../../public/assets/font/Vazir-Black-FD.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("../../public/assets/font/Vazir-Medium-FD.eot");
+  src: url("../../public/assets/font/Vazir-Medium-FD.eot")
+      format("embedded-opentype"),
+    url("../../public/assets/font/Vazir-Medium-FD.woff2") format("woff2"),
+    url("../../public/assets/font/Vazir-Medium-FD.woff") format("woff"),
+    url("../../public/assets/font/Vazir-Medium-FD.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("../../public/assets/font/Vazir-Light-FD.eot");
+  src: url("../../public/assets/font/Vazir-Light-FD.eot")
+      format("embedded-opentype"),
+    url("../../public/assets/font/Vazir-Light-FD.woff2") format("woff2"),
+    url("../../public/assets/font/Vazir-Light-FD.woff") format("woff"),
+    url("../../public/assets/font/Vazir-Light-FD.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("../../public/assets/font/Vazir-Thin-FD.eot");
+  src: url("../../public/assets/font/Vazir-Thin-FD.eot")
+      format("embedded-opentype"),
+    url("../../public/assets/font/Vazir-Thin-FD.woff2") format("woff2"),
+    url("../../public/assets/font/Vazir-Thin-FD.woff") format("woff"),
+    url("../../public/assets/font/Vazir-Thin-FD.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background: #efefef;
+  height: 8px;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c0c0bf;
+  border-radius: 10px;
+}
+::-webkit-scrollbar:horizontal {
+  height: 0;
+  width: 0;
+  display: none;
+}
+::-webkit-scrollbar-thumb:horizontal {
+  display: none;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
